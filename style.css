@@ -1,0 +1,296 @@
+section{
+	padding:0;
+}
+
+.sec1{
+	background-image: url("images/candle2.gif");
+	background-repeat:repeat-x;
+	background-size: 50% 100%;
+}
+.sec2{
+	background-image: url("images/road.jpg");
+	background-size: cover;
+	background-position: right;
+	background-attachment: fixed;
+}
+
+.sec3{
+	background-image: url("images/mantion2.png");
+	background-size: cover;
+	background-repeat:repeat-x;
+	background-position: right;
+	background-attachment: fixed;
+}
+.sec4{
+	background-image: url("images/mazmorras2.png");
+	background-size: cover;
+	background-position: right;
+	background-attachment: fixed;
+}
+.sec5{
+	background-image: url("images/wall3.png");
+	background-size: cover;
+	background-position: right;
+	background-attachment: fixed;
+}
+.story{
+	background-color: black;
+	margin:0px;
+	padding:5pt;
+	min-width: 1000px;
+}
+.pages{
+	background-image: url("images/paper_book.jpg");
+	opacity: .85;
+	padding: 32px;
+	border-radius: 5px;
+	max-width: 500px;
+	height:640px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-left:100px;
+}
+#page0{
+	margin-top: 4%;
+}
+#pageNav ul{
+	background-color: rgba(124, 32, 31,.7);
+	padding: 0px;
+	list-style-type: none;
+	border-radius: 5px;
+	position:fixed;
+	top:0px;
+	margin-top:12%;
+}
+
+#pageNav ul li{
+	display: inline-box;
+	text-align: center;
+	line-height: 300%;
+	width: 60pt;
+}
+#pageNav ul li a{
+	color:white;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1vw;
+	text-decoration: none;
+	text-shadow: 2px 2px Black;
+}
+
+
+nav ul{
+	list-style-type: none;
+	margin:0;
+	border-radius: 5px;
+	padding: 0;
+	background-color: rgb(124, 32, 31);
+	position: fixed;
+	z-index: 1;
+	width: 98.5%;
+}
+nav ul li{
+	display: inline-block;
+	text-align: center;
+	padding: 4pt;
+	width: 20%;
+	margin:0;
+	
+}
+nav ul li a{
+	display: box;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	text-shadow: 2px 2px Black;
+	font-size: 1.5vw;
+	color:white;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+#page0{
+	font-size: 3vw;
+	font-weight: bold;
+	text-align: center;
+}
+#page0 span{
+	font-size: 1.7vw;
+}
+audio{
+	position:fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+.author{
+	background: url("images/backgroundwall.jpg")  no-repeat center center fixed;
+	background-size: cover;
+	
+}
+
+#poePic {
+	position: fixed;
+	right: 14%;
+   	top: 20%;
+   	width: 23%;
+   	height: 46%;	
+}
+#old_frame{
+	position: fixed;
+	right: 9%;
+   	top: 8%;
+   	width: 33%;
+   	height: 70%;
+}
+.author_block{
+	background-color: rgba(19,14,18,.7); 
+	padding: 10pt;
+	border-radius: 5px;
+	margin-right: 6%;
+	margin-left: 8%;
+	margin-bottom: 3%;
+	width: 42%;
+	color: white;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	float: left;
+	font-size: 1vw;
+}
+#author_title{
+	background-color: rgba(19,14,18,.9); 
+	margin-top: 4%;
+	font-size: 2vw;
+	padding-top: 0;
+	text-align: center;
+	line-height: 1vw;
+	font-variant: small-caps;
+
+}
+.more{
+	background: url("images/caskback.jpg") no-repeat center center fixed;
+	background-size: cover;
+}	
+#more_text{
+	color:white;
+	max-width: 39%;
+	padding: 10pt;
+	background-color: rgba(19,14,18,.6); 
+	border-radius: 5px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.1vw;
+	float: right;
+	margin-right: 5%;
+	margin-top: 7%;
+	line-height: 18pt;
+}
+#more_text h2{
+	text-align: center;
+	margin: 2pt;
+}
+.home{
+	background: url("images/oldbook2.jpg") no-repeat center center fixed;
+	background-size: contain;
+	background-color: rgb(19,14,18);
+
+}
+#home_title{
+	color:white;
+	max-width: 100%;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 5.5vw;
+	font-variant: small-caps;
+	text-shadow: 2px 2px black;
+	margin-top: 8%;
+	margin-bottom:1px;
+	text-align: center;
+	float:left;
+	margin-left: 36%;	
+}
+#home_subtitle {
+	color:white;
+	max-width: 100%;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-variant: small-caps;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	float:left;
+	margin-left: 42%;
+	font-size: 2.5vw;
+	margin-top: 8;
+	clear: left;
+}
+
+.Here{
+	background-color: rgb(31, 28, 109);
+}
+
+.this_page{
+	background-color: rgba(168, 27, 25,1);
+}
+
+.fun_fact{
+	background-color: rgba(19,14,18,.9); 
+	color:yellow;
+	font-size: 1vw;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	
+	position: fixed;
+	top: 70pt;
+	left: 65%;
+	width: 30%;
+	margin: 1%;
+	padding: 1%;
+	border-radius: 5px;
+}
+.ff_content img{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.word{
+	font-size:2vw;
+	font-weight: bold;
+	color:rgb(31, 28, 109);
+	text-shadow: 2px 2px white;
+	text-decoration: underline;
+}
+ .word:hover, #autoplay:hover{
+ 	font-weight: bold;
+ 	font-style: italic;
+ 	
+ }
+ #autoplay{
+ 	font-size:2vw;
+	font-weight: bold;
+	color:rgb(31, 28, 109);
+	text-shadow: 2px 2px white;
+	border:solid 2px rgb(31, 28, 109);
+	padding: 2px;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
