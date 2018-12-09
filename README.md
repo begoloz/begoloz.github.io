@@ -1,6 +1,6 @@
 # begoloz.github.io
 #content references:
-References:
+
 
 Text information:
 
